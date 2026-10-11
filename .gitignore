@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Caches & Bytecode
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Data & Vector Storage (Local indices run inside containers)
+data/raw/*
+!data/raw/.gitkeep
+qdrant_storage/
+chroma_db/
+*.db
+*.sqlite3
+
+# Logs & Secrets
+*.log
+secrets.json

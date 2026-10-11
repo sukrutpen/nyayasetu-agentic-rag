@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+langgraph
+langchain-core
+ragas
+qdrant-client
+sentence-transformers
+rank-bm25
+redis
+prometheus-client
+pytest
+pre-commit
+ruff
